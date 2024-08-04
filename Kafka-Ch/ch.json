@@ -1,0 +1,10 @@
+{
+  "server": [
+    {
+      "host": "wh-olap-pegashard.el.wb.ru",
+      "user": "absalyamov",
+      "password": "779963",
+      "port": 9000
+    }
+  ]
+}
