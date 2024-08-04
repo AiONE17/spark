@@ -86,8 +86,8 @@ schema = StructType([
 
 sql_tmp_create = f"""create table if not exists tmp.{ch_dst_table}
     (
-        office_id Int16,
-        wh_id Int16,
+        office_id Int64,
+        wh_id Int64,
         place_cod Int64,
         entry String default 'kafka'
     )
